@@ -41,7 +41,7 @@
         <span class="close">close</span>
     </div>
 </div>
-<script type="text/javascript" src="assets/vendors/jquery/index.js"></script>
+<script type="text/javascript" src="jquery/index.js"></script>
 <script>
     $(document).ready(function () {
         var delay = 1;
@@ -78,11 +78,11 @@
         $(document.body).on('keydown', function (event) {
             // Press 'b' key
             if (event.which === 66) {
-                $('.relocate-location').text('Bookmark Page');
+                $('.relocate-location').text('404 Page');
                 $('.relocating').css('opacity', 1);
 
                 window.setTimeout(function () {
-                    window.location.href = '/bookmarks.html';
+                    window.location.href = '/404.html';
                 }, 1000);
             }
         });
