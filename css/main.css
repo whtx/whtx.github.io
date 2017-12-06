@@ -25,20 +25,20 @@ ul, ol {
     list-style: none;
 }
 
-.vi {
+.po {
     position: relative;
     margin: 100px auto 0;
     width: 960px;
 }
 
 @media (max-width: 767px) {
-    .vi {
+    .po {
         margin-top: 50px;
         width: auto;
     }
 }
 
-.vi h1 {
+.po h1 {
     text-align: center;
     position: relative;
     top: -10px;

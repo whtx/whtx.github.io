@@ -9,13 +9,13 @@
 </head>
 
 <body>
-<div class="vi">
+<div class="po">
     <div class="sidebar">
         <div class="header">
             <h1>Ponnenult</h1>
-            <div class="quote">
+            <div class="quote">	
                 <p class="quote-text animate-init">你总说梦想遥不可及,可你却从不早睡,也不早起.</p>
-                <p class="quote-author animate-init">《自省》—— <strong>警句</strong></p>
+                <p class="quote-author animate-init">《名言警句》—— <strong>自省</strong></p>
             </div>
         </div>
         <div class="menu">
@@ -50,7 +50,7 @@
 
         $('h1').animate(animationOptions).promise()
                 .pipe(animateMain)
-                .pipe(animateLocationIcon);
+
 
         function animateMain() {
             var dfd = $.Deferred();
@@ -74,18 +74,6 @@
         }
 
         function animationQuote() {}
-
-        $(document.body).on('keydown', function (event) {
-            // Press 'b' key
-            if (event.which === 66) {
-                $('.relocate-location').text('404 Page');
-                $('.relocating').css('opacity', 1);
-
-                window.setTimeout(function () {
-                    window.location.href = '/404.html';
-                }, 1000);
-            }
-        });
     });
 </script>
 </body>
