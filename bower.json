@@ -3,16 +3,13 @@
   "version": "v2017",
   "homepage": "https://ponnenult.github.io",
   "authors": [
-    "Ponnenult <devil3206571972@gmail.com>"
+    "Ponnenult <ponnenults@gmail.com>"
   ],
   "main": "index.html",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
   ],
   "dependencies": {
     "jquery": "http://code.jquery.com/jquery-1.11.2.min.js"
